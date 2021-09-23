@@ -1,0 +1,88 @@
+bgc{
+    background-color:burlywood;
+   
+}
+
+#info{
+    border-collapse: collapse;
+}
+
+#info td, #info th{
+border: 2px solid black;
+}
+ section{  
+    width: auto;
+    height: 200px;
+    display: flex;
+    background-color: pink;
+    justify-content: right;
+
+}
+.pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+header{
+    width: auto;
+    background-color: rgb(139, 211, 230);
+    list-style-type:none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+#navigation li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+#navigation li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+}
+#navigation li:hover{
+    background-color: purple;
+    cursor: pointer;
+    padding: 20px;
+    
+}
+#make{
+    
+    padding:16px;
+    font-size:12px;
+    border:none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#dropdown:hover #make{
+    background-color: black;
+    color: white;
+}
+
+#dropdown{
+    position: relative;
+    display: inline-block;
+}
+#content{
+    display: none;
+    position: absolute;
+    background-color: wheat;
+    width: 160px;
+ 
+}
+#content a{
+    color:black;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#content a:hover{
+    background-color: yellow;
+}
+
+#dropdown:hover #content{
+    display: block;
+}
